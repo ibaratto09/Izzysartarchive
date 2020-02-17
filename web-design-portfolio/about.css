@@ -1,0 +1,153 @@
+body {
+    background-color: #add0c0;
+    font-family: 'Biryani', sans-serif;
+}
+/*overrides all */
+
+.flex-container {
+    align-content: space-between;
+    align-items: space-between;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-start;
+    margin: 10px;
+    width: 100%;
+}
+/*controls all container for flex*/
+
+.flex-img1 {
+    align-items: stretch;
+    height: 200px;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+}
+/*controls images in flex*/
+
+.flex-text1 {
+    align-content: space-between;
+    align-self: flex-end;
+    background-color: darkslategray;
+    color: white;
+    height: 50%;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-top: 300px;
+    padding: 20px;
+    text-align: right;
+    width: 30%;
+}
+    
+/*controls desc next to image*/
+
+.caption1 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+/*controls captions below desc*/
+
+.mani {
+    align-items: flex-start;
+    height: 100px;
+    margin-bottom: 300px;
+    width: 100px;
+}
+
+/*img 1*/
+
+.pcae {
+    align-content: flex-end;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+/*img 2*/
+.pets {
+    margin-right: 600px;
+    margin-top: 40px;
+    width: 200px;
+}
+ /*last img*/
+
+h2 {
+    color: #04725c;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+/*head caption*/
+
+
+
+
+header {
+    
+    background-color: #c8e2e2;
+    color: #045972;
+    font-family: 'Righteous', cursive;
+    font-kerning:normal;
+    font-size: 50px;
+    margin: 25x,60x;
+    text-align: center;
+}
+
+  
+/*Title*/
+
+
+
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+li a:hover {
+   background-color:#7e99a1;
+   color: white;
+}
+
+a.active {
+   color: white;
+}
+
+  /*appears white when clicked on*/  
+
+
+  .w3-button {
+    background: #4E9CAF;
+    border-radius: 25px;
+    color: white;
+    display: inline;
+    float: right;
+    font-family: 'Scada', sans-serif;
+    font-weight: bold;
+    height:30;
+    padding: 40px;
+    text-align: center;
+    width: 70px;
+}
+/*gives the button appearance to nav*/
+
+@media screen and (max-width: 300px){
+ .flex-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    margin: auto;
+    object-fit: fill;
+    }
+body {
+    margin: 5px;
+    justify-content: center;
+    }
+}
+
+
+@media screen and (max-width:600px)
+{.nav
+    {
+    display: flex;
+    flex-flow: wrap column;
+}
+
+}

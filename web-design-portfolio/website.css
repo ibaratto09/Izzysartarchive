@@ -1,0 +1,70 @@
+body {
+    background-color: #add0c0;
+    font: serif;}
+
+h2 {color: #04725c;
+    font-family: 'Saira Semi Condensed', sans-serif;
+}
+p {
+    font-family: 'Biryani', sans-serif;
+    float:left;
+    width:50%}
+
+
+header {
+    
+    background-color: #c8e2e2;
+    text-align: center;
+    color: #045972;
+    font-size: 50px;
+    font-family: 'Righteous', cursive;
+    font-kerning:normal;
+    margin: 25x,60x;
+    
+}
+
+}
+main {
+    margin: 10x,50x,25x;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a:hover {
+  background-color:#7e99a1;
+  color: white;
+}
+
+a.active {
+  background-color:
+  color: white;
+}
+    
+
+  .button {
+    display: inline;
+    float: right;
+    width: 70px;
+    height:30;
+    font-family: 'Scada', sans-serif;
+    background: #4E9CAF;
+    padding: 40px;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
